@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		47A3F09D2BD2AC22001A0C4A /* TodoListViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47A3F09C2BD2AC22001A0C4A /* TodoListViewModel.swift */; };
 		814A08FC2BC41BC500921E4F /* ItemView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 814A08FB2BC41BC500921E4F /* ItemView.swift */; };
 		814A08FE2BC41C7800921E4F /* TodoItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 814A08FD2BC41C7800921E4F /* TodoItem.swift */; };
 		815D9D7D2BC413800050957E /* TodoListApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 815D9D7C2BC413800050957E /* TodoListApp.swift */; };
@@ -16,6 +17,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		47A3F09C2BD2AC22001A0C4A /* TodoListViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TodoListViewModel.swift; sourceTree = "<group>"; };
 		814A08FB2BC41BC500921E4F /* ItemView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ItemView.swift; sourceTree = "<group>"; };
 		814A08FD2BC41C7800921E4F /* TodoItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TodoItem.swift; sourceTree = "<group>"; };
 		815D9D792BC413800050957E /* TodoList.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TodoList.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -36,6 +38,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		47A3F09B2BD2ABC9001A0C4A /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				47A3F09C2BD2AC22001A0C4A /* TodoListViewModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
 		815D9D702BC413800050957E = {
 			isa = PBXGroup;
 			children = (
@@ -78,6 +88,7 @@
 			children = (
 				815D9D7E2BC413800050957E /* LandingView.swift */,
 				814A08FB2BC41BC500921E4F /* ItemView.swift */,
+				47A3F09B2BD2ABC9001A0C4A /* ViewModel */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -171,6 +182,7 @@
 				814A08FC2BC41BC500921E4F /* ItemView.swift in Sources */,
 				814A08FE2BC41C7800921E4F /* TodoItem.swift in Sources */,
 				815D9D7D2BC413800050957E /* TodoListApp.swift in Sources */,
+				47A3F09D2BD2AC22001A0C4A /* TodoListViewModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
